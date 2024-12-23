@@ -1,5 +1,7 @@
 # Hospital Nueva Vida - Proyecto ReactJS
 
+Para esta evaluación modeulo 4 taller 3, seguimos trabajandot en el proyecto Hospital Nueva Vida, desarrollado con ReactJS. Este simula el funcionamiento básico de un sistema de gestión hospitalaria. Incluye un listado dinámico de doctores con filtro por especialidad, una lista de servicios destacados, y un formulario interactivo para agendar citas con validaciones. Además, se implementaron componentes reutilizables, una interfaz profesional y responsiva, y una gestión de estado eficiente con Context API.
+
 ## Funcionalidades Implementadas
 
 1. **Ruteo y Vistas Principales**
@@ -29,13 +31,13 @@
    - Optimización del DOM Virtual con React.Fragment.
    - Uso de React Profiler para análisis de rendimiento.
 
-5. **Estilo Profesional**
-   - Implementación de Material-UI para un diseño moderno y responsivo.
+5. ** Tecnologías Utilizadas
 
-## Instalación y Ejecución
+- React
+- React Router DOM
+- Context API
+- Material-UI
+- PropTypes
+- Vite
 
-1. Clona el repositorio.
-2. Instala las dependencias:
-   ```bash
-   npm install
-   ```
+**Carlos Farias Galdames
