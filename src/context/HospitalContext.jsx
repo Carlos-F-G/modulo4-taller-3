@@ -7,7 +7,7 @@ const HospitalContext = createContext();
 export const useHospital = () => useContext(HospitalContext);
 
 export const HospitalProvider = ({ children }) => {
-  // Estado global para los doctores
+ 
   const [doctors] = useState([
     { id: 1, name: "Dr. Juan Pérez", specialty: "Cardiología", experience: 10, imageURL: "https://via.placeholder.com/100" },
     { id: 2, name: "Dra. Ana Gómez", specialty: "Pediatría", experience: 8, imageURL: "https://via.placeholder.com/100" },
