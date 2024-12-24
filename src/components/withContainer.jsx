@@ -1,6 +1,6 @@
 import React from "react";
 
-// Componente de Orden Superior (HOC)
+
 const withContainer = (WrappedComponent, title) => {
   return (props) => (
     <div style={{ border: "1px solid #ccc", padding: "16px", borderRadius: "8px", margin: "16px 0" }}>
